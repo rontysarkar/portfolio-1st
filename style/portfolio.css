@@ -11,6 +11,21 @@ nav {
   color: var(--Dark-01, #181818);
   font-size: 45px;
   font-weight: 800;
+
+  
+}
+.section-title{
+      color: #181818;
+     text-align: center;
+     font-size: 35px;
+     font-weight: 700;   
+}
+.section-discription{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
 }
 .text-primary {
   color: #fd6e0a;
@@ -41,13 +56,49 @@ nav a {
 
 .header {
   background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
-  padding: 30px 30px 3px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
 }
 .profile-pic {
-    
-    
+  margin-left: 290px;
+  width: 800px;
+  height: 700px;
+}
+
+/* div contian */
+
+.banner-grating {
+  color: #474747;
+  font-size: 45px;
+  width: 600px;
+  margin-bottom: 0px;
+}
+.banner-title {
+  color: var(--Dark-01, #181818);
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.para {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 30px;
+}
+
+/* main section style  */
+
+/* about section style */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
 }
