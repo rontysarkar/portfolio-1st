@@ -56,6 +56,9 @@ nav a {
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+  max-width: 1800px;
+  margin: 0 auto;
+ 
 }
 .banner {
   padding: 30px 30px 0px 150px;
@@ -101,8 +104,11 @@ nav a {
 }
 
 main {
-  width: 1140px;
+  width: 1240px;
   margin: 0 auto;
+}
+main section{
+  margin-top: 130px;
 }
 
 .about-info-container {
@@ -122,4 +128,71 @@ main {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
+}
+#what-i-discription{
+  padding: 30px 150px;
+}
+
+/* what i do style  */
+.skil-continer{
+  display: flex;
+  gap: 24px;
+}
+
+.skil{
+  border-radius: 5px;
+ background: #FFF;
+ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ padding: 30px;
+}
+
+.skill-discription{
+  margin-top: 80px;
+  padding: 10px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+/* rasume section stylee */
+
+.resume-container-all{
+  display: flex;
+  gap: 50px;
+}
+
+.resume-colum-title{
+  color:  #474747;
+ font-size: 30px;
+ font-weight: 700;
+
+}
+
+.resume-education{
+  color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+.resume-institute{
+  color:  #757575;
+font-size: 20px;
+font-weight: 600;
+margin-top: 0;
+margin-bottom: 20px;
+
+}
+.resume-discription{
+  color:  #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.resume-colum-title hr{
+  margin: 30px;
+}
+.download-cv{
+  text-align: center;
+  margin: 60px 0;
 }
